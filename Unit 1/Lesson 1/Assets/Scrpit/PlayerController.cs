@@ -9,9 +9,11 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
+    
+    public float speed = 500;
     void Update()
     {
         // Move the Vehicle Forward
-        transform.Translate(0, 0, 10);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
