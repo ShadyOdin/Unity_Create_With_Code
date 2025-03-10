@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     // Update is called once per frame
     
-    private float speed = 50f;
+    private float speed = 500f;
     private float turnSpeed = 100f;
     private float horizontalInput;
     private float forwardInput;
