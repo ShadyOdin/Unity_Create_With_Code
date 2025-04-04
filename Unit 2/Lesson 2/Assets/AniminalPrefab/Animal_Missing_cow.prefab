@@ -1498,7 +1498,7 @@ GameObject:
   - component: {fileID: 6868101028633572075}
   - component: {fileID: 7298010173368628965}
   m_Layer: 0
-  m_Name: Missing_cow
+  m_Name: Animal_Missing_cow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,7 +1554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38cad5dce588f364b9a6efa5999216a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 5
 --- !u!114 &7298010173368628965
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4229,10 +4229,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2697834904779402441}
   - component: {fileID: 9218724832775426021}
-  - component: {fileID: -1669157435349425262}
   - component: {fileID: 2313426677043872310}
+  - component: {fileID: -1669157435349425262}
   m_Layer: 0
-  m_Name: Dog_Pug_01
+  m_Name: Animal_Pug_Undead
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4312,6 +4312,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2313426677043872310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6863290651229650972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cad5dce588f364b9a6efa5999216a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!114 &-1669157435349425262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4326,19 +4339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
---- !u!114 &2313426677043872310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6863290651229650972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38cad5dce588f364b9a6efa5999216a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 40
 --- !u!1 &7140500415649740750
 GameObject:
   m_ObjectHideFlags: 0

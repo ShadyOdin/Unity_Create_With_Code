@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 7883153905782679147}
   - component: {fileID: 528868837311744554}
   m_Layer: 0
-  m_Name: Animal_Rooster
+  m_Name: Animal_Rooster_Midas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
