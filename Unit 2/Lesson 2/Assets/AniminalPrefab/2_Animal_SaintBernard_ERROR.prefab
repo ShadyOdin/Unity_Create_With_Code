@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 3990600708495051617}
   - component: {fileID: 8810199256709606043}
   - component: {fileID: 4523480094684690835}
+  - component: {fileID: 6202072341403374629}
+  - component: {fileID: -1031608636984810676}
   m_Layer: 0
-  m_Name: Animal_SaintBernard_ERROR
+  m_Name: 2_Animal_SaintBernard_ERROR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,6 +122,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+--- !u!65 &6202072341403374629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272127360678456912}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08207947, y: 0.19933824, z: 0.25920805}
+  m_Center: {x: 0.000009904305, y: 0.0991688, z: 0.031853043}
+--- !u!114 &-1031608636984810676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272127360678456912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3004d8d6b5832c4b9605a6cc2e937af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313046738320685799
 GameObject:
   m_ObjectHideFlags: 0

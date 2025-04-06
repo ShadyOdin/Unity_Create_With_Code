@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerCtrl : MonoBehaviour
 {
@@ -28,11 +29,36 @@ public class PlayerCtrl : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+       
+       
+        // for pc
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }
+        
         if (Input.GetKeyUp(KeyCode.Space))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
+       
+        
+        // for xbox controller
+        if (Input.GetKeyDown(KeyCode.JoystickButton4))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+
+        }        
+        if (Input.GetKeyUp(KeyCode.JoystickButton4))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.JoystickButton5))
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
+        if (Input.GetKeyUp(KeyCode.JoystickButton5))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
         }

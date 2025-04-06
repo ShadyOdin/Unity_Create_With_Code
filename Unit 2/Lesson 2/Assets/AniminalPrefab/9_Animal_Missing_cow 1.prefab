@@ -1497,8 +1497,10 @@ GameObject:
   - component: {fileID: 418403868686992965}
   - component: {fileID: 6868101028633572075}
   - component: {fileID: 7298010173368628965}
+  - component: {fileID: 5977362163403036985}
+  - component: {fileID: 6443350194657268685}
   m_Layer: 0
-  m_Name: Animal_Missing_cow
+  m_Name: 9_Animal_Missing_cow 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1569,6 +1571,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+--- !u!65 &5977362163403036985
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6053577924045423794}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.025221, y: 31.347559, z: 48.141277}
+  m_Center: {x: 0.20821756, y: 15.373208, z: 0.06943279}
+--- !u!114 &6443350194657268685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6053577924045423794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3004d8d6b5832c4b9605a6cc2e937af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6480671541230946902
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1920,7 @@ Transform:
   m_GameObject: {fileID: 7341501101853028897}
   serializedVersion: 2
   m_LocalRotation: {x: -0.05223042, y: 0.05223042, z: 0.70517516, w: 0.70517516}
-  m_LocalPosition: {x: 5.0481524, y: -1, z: -0.21755739}
+  m_LocalPosition: {x: 5.555555, y: -1, z: -0.21755739}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
