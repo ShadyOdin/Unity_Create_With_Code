@@ -5,8 +5,8 @@ public class SawnpManager : MonoBehaviour
     public GameObject[]animalPrefabs;
     private float spawnRangeX = 15;
     private float spawnPosZ = 30;
-    private float startDelay = 0;
-    private float spawnInterveral = 0f; 
+    private float startDelay = 4;
+    private float spawnInterveral = 1.6f; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
