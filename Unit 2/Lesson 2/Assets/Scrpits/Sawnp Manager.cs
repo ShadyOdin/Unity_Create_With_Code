@@ -6,7 +6,7 @@ public class SawnpManager : MonoBehaviour
     private float spawnRangeX = 15;
     private float spawnPosZ = 30;
     private float startDelay = 4;
-    private float spawnInterveral = 1.6f; 
+    private float spawnInterveral = 0.5f; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
