@@ -6,7 +6,7 @@ public class PlayerCtrler : MonoBehaviour
     public float jumpForce = 10;
     public float gravityModifier;
     public bool isOnGround = true;
-    public bool isGameOver = false;
+    public bool gameOver = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,7 +32,7 @@ public class PlayerCtrler : MonoBehaviour
         else if (collision.gameObject.CompareTag("Obstacle"))
         {
             Debug.Log("Game Over!");
-            isGameOver = true;
+            gameOver = true;
         }
     }
 }

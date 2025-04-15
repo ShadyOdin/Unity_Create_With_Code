@@ -1105,6 +1105,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 400066, guid: 70ab0d3e71b54ac4bbd703cb0a686c4d, type: 3}
       insertIndex: 0
       addedObject: {fileID: 697075361}
+    - targetCorrespondingSourceObject: {fileID: 400066, guid: 70ab0d3e71b54ac4bbd703cb0a686c4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475875101}
+    - targetCorrespondingSourceObject: {fileID: 400066, guid: 70ab0d3e71b54ac4bbd703cb0a686c4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1377088681}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100066, guid: 70ab0d3e71b54ac4bbd703cb0a686c4d, type: 3}
       insertIndex: -1
@@ -1515,12 +1521,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1377088680}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.665928, y: 0.23778136, z: 0.23778136, w: 0.665928}
-  m_LocalPosition: {x: 7.2807083, y: 8.5, z: 0}
+  m_LocalRotation: {x: 0.30274537, y: -0.30274537, z: 0.639019, w: 0.639019}
+  m_LocalPosition: {x: -0, y: 8.5, z: -7.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2057500724}
   m_LocalEulerAnglesHint: {x: 50.7, y: 0, z: 90}
 --- !u!114 &1377088682
 MonoBehaviour:
@@ -1595,7 +1601,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -1663,12 +1669,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475875100}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.665928, y: 0.23778136, z: 0.23778136, w: 0.665928}
-  m_LocalPosition: {x: 7.7807083, y: 8.5, z: 0}
+  m_LocalRotation: {x: 0.30274537, y: -0.30274537, z: 0.639019, w: 0.639019}
+  m_LocalPosition: {x: 0, y: 8.5, z: -7.3614206}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2057500724}
   m_LocalEulerAnglesHint: {x: 50.7, y: 0, z: 90}
 --- !u!114 &1475875102
 MonoBehaviour:
@@ -1743,7 +1749,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -2413,7 +2419,7 @@ MonoBehaviour:
   jumpForce: 10
   gravityModifier: 2
   isOnGround: 1
-  isGameOver: 1
+  gameOver: 0
 --- !u!54 &2057500722
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2763,8 +2769,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 534669905}
   - {fileID: 170076735}
-  - {fileID: 1475875101}
-  - {fileID: 1377088681}
   - {fileID: 2547046813023923802}
   - {fileID: 5456678568937549122}
   - {fileID: 959051167}
