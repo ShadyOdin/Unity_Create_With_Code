@@ -4,12 +4,13 @@ public class SpawnMgr : MonoBehaviour
 {
     public GameObject obstiaclePrefab;
     private Vector3 spawnPos = new Vector3(25, 0, 0);
-    private float startDelay = 2f;
+    private float startDelay = 2;
+    private float repeatRate = 1f;
     private PlayerCtrler PlayerCtrlerScript;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InvokeRepeating("SpawnObstacle", startDelay, Random.Range(1f, 2.5f));
+        InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
         PlayerCtrlerScript = GameObject.Find("Player").GetComponent<PlayerCtrler>();
     }
 
