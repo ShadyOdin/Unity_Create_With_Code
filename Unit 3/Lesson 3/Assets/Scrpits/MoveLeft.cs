@@ -4,7 +4,7 @@ public class MoveLeft : MonoBehaviour
 {
     private float speed = 20f;
     private PlayerCtrler PlayerCtrlerScript;
-    private float leftBound = -1f;
+    private float leftBound = -10f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
